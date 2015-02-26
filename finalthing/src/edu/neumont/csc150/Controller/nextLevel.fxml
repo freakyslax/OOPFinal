@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.neumont.csc150.view.gameViewController">
+   <children>
+      <Canvas fx:id="game" height="800.0" onKeyPressed="#startPlayerMovement" onKeyReleased="#endPlayerMovement" width="1280.0">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Canvas>
+      <Button fx:id="saveButton" mnemonicParsing="false" onMouseClicked="#saveGame" prefHeight="39.0" prefWidth="84.0" style="-fx-background-image: url('save.png');" text="Save" />
+      <Button fx:id="loadButton" layoutX="84.0" mnemonicParsing="false" onMouseClicked="#loadGame" prefHeight="39.0" prefWidth="84.0" style="-fx-background-image: url('load.png');" text="Load" />
+      <Button fx:id="newButton" layoutX="168.0" mnemonicParsing="false" onMouseClicked="#newGame" prefHeight="39.0" prefWidth="84.0" style="-fx-background-image: url('new.png');" text="New" />
+      <Button fx:id="exitButton" layoutX="1196.0" mnemonicParsing="false" onMouseClicked="#exitProgram" prefHeight="39.0" prefWidth="84.0" style="-fx-background-image: url('exit.png');" text="Exit" />
+   </children>
+</AnchorPane>
