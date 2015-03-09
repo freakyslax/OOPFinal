@@ -39,7 +39,7 @@ public class Controller extends Application{
 
 
 	public static void main(String[] args) {
-        Game.newGame(); //this sets the game, WIP, very fucked
+        Game.newGame(); //this sets the game
         launch(args); //this launches the game
     }
 

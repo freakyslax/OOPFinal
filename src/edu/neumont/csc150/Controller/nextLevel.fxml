@@ -9,9 +9,9 @@
 <?import java.lang.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.neumont.csc150.view.gameViewController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.neumont.csc150.view.gameViewController" fx:id="gameKeySpace">
    <children>
-      <Canvas fx:id="game" height="800.0" onKeyPressed="#startPlayerMovement" onKeyReleased="#endPlayerMovement" width="1280.0">
+      <Canvas fx:id="game" height="800.0" width="1280.0">
          <cursor>
             <Cursor fx:constant="NONE" />
          </cursor>

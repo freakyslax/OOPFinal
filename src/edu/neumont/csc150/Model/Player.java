@@ -5,12 +5,10 @@ public class Player {
 	private int hunger;
 	private int xCoord;
 	private int yCoord;
-	private int thirst;
 	
 	public Player() {
 		health = 100;
 		hunger = 100;
-		thirst = 50;
 		xCoord = 0;
 		yCoord = 0;
 	}
@@ -38,12 +36,6 @@ public class Player {
 	}
 	public void setyCoord(int yCoord) {
 		this.yCoord = yCoord;
-	}
-	public int getThirst() {
-		return thirst;
-	}
-	public void setThirst(int thirst) {
-		this.thirst = thirst;
 	}
 
 }
